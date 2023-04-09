@@ -77,12 +77,14 @@ exports.RegReg = (a,b,c,d,e,f,g,h,i) =>{
 	return`╭─「 *VERIFIKASI BERHASIL* 」
 │\`\`\`Verifikasi Sukses`\`\` 
 │
-│SN: ${a}
-│Pada : ${b}
-│Nama : ${c}
-│Umur : ${d}
+│•SN: ${a}
+│•Pada : ${b}
 │
-│Untuk menggunakan bot silahka
+│•Nama : ${c}
+│•Umur : ${d}
+│•Gender : ${e}
+│
+│Untuk menggunakan bot silahkan
 │Kirim perintah ${g}menu
 │atau ${h}allmenu
 │

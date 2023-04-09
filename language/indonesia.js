@@ -2,7 +2,7 @@ exports.DelSetWel = `Sukses delete set welcome di grup ini`
 exports.NoSetWel = `Belum ada set welcome di grup ini`
 exports.DelSetLeft = `Sukses delete set goodbye di grup ini`
 exports.NoSetLeft = `Belum ada set goodbye di grup ini`
-exports.doneSet = `Sudah di ubah sebelumnya`
+exports.doneSet = `Telah di ubah sebelumnya`
 exports.serverErr = `Server sedang eror`
 exports.limitLu = (m) =>{
 	return`Sisa limit kamu : ${m} `
@@ -30,7 +30,7 @@ exports.profile = (username, m, about, pasangan, PhoneNumber, exp, min, xp, math
 
 //
 exports.needReg = (a, b, c) =>{
-	return`🇲🇨 Daftar dulu bang
+	return`🇲🇨 Daftar dulu
 
 Gini : #daftar nama|umur|gender|hobi
 Contoh : #daftar ${a}|18|cowo|Game
@@ -75,19 +75,18 @@ exports.HobiReg = () =>{
 	}
 exports.RegReg = (a,b,c,d,e,f,g,h,i) =>{
 	return`╭─「 *VERIFIKASI BERHASIL* 」
-│\`\`\`Verifikasi Sukses Dengan\`\`\` 
+│\`\`\`Verifikasi Sukses`\`\` 
 │
-│\`\`\`SN: ${a}\`\`\`
-│\`\`\`Pada : ${b}\`\`\`
-│\`\`\`Nama : ${c}\`\`\`
-│\`\`\`Umur : ${d}\`\`\`
-│\`\`\`Gender : ${e}\`\`\`
-│\`\`\`Nomor : @${f}\`\`\`
-│\`\`\`Untuk menggunakan bot silahkan \`\`\`
-│\`\`\`Kirim perintah ${g}menu\`\`\`
-│\`\`\`atau ${h}allmenu\`\`\`
+│SN: ${a}
+│Pada : ${b}
+│Nama : ${c}
+│Umur : ${d}
 │
-│\`\`\`\Total : ${i} Users\`\`\`
+│Untuk menggunakan bot silahka
+│Kirim perintah ${g}menu
+│atau ${h}allmenu
+│
+│Total : ${i} Users
 ╰─────────────────────`
 	}
 exports.genderReg = (a) =>{
@@ -1781,12 +1780,6 @@ exports.listMenu2 = (prefix) => {
 ╭─❒ 「 TqTo 」 
 │○ My God
 │○ My Parents
-│○ Fatih A.
-│○ Ferdiz
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ ZeeoneOfc
 │○ Penyedia Module
 ╰❒ And All Support
     `
@@ -1833,10 +1826,7 @@ exports.leave = () =>{
 Goodbye`
 }
 exports.source = () =>{
-return`*------「 SOURCE CODE 」 ------*
-
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://s.id/YouTube-Zeeoneofc
+return`Not found
 `
 }
 exports.tos = (ownernomer) => {
@@ -2516,12 +2506,6 @@ exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
 │○ My God
 │○ My Parents
-│○ Fatih A.
-│○ Ferdiz
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ ZeeoneOfc
 │○ Penyedia Module
 ╰❒ And All Support
 `
